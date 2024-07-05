@@ -18,3 +18,4 @@ for filepath in filepaths:
     pdf.set_font(family="Times",style="B",size=14)
     pdf.cell(w=50,h=8,txt=f"Invoice nr. {invoice_nr}")
     pdf.output(f"PDFs/Invocie {invoice_nr}.pdf")
+
